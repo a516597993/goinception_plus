@@ -1,0 +1,25 @@
+[server]
+host = "0.0.0.0"
+port = 4000
+audit_only = true
+audit_timeout = "30s"
+
+[auth]
+username = "archery"
+password = "CHANGE_ME_GATEWAY_PASSWORD"
+
+# 只做审核或不使用 backup=1 时，可以删除整个 [backup] 段。
+[backup]
+host = "127.0.0.1"
+port = 3306
+user = "backup_user"
+password = "CHANGE_ME_BACKUP_PASSWORD"
+
+[log]
+level = "info"
+format = "json"
+
+[observability]
+enabled = true
+host = "0.0.0.0"
+port = 4001

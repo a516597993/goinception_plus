@@ -1,0 +1,18 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "CHECKED",
+    "ErrorLevel": 0,
+    "StageStatus": "Checked",
+    "ErrorMessage": "",
+    "SQL": "UPDATE gip_phase_test.users SET score = 11.00 WHERE id = 1;",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  }
+]

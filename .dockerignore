@@ -1,0 +1,7 @@
+.git
+.tools
+bin
+logs
+testcases
+*.log
+config/config.toml

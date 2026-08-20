@@ -1,0 +1,50 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "EXECUTED",
+    "ErrorLevel": 0,
+    "StageStatus": "ExecuteSuccessfully",
+    "ErrorMessage": "",
+    "SQL": "INSERT INTO users(id, username, score) VALUES (900, 'phase4', 1.00);",
+    "AffectedRows": 1,
+    "BackupDatabase": "",
+    "ExecuteTime": 47439300,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  },
+  {
+    "Sequence": 2,
+    "Stage": "EXECUTED",
+    "ErrorLevel": 0,
+    "StageStatus": "ExecuteSuccessfully",
+    "ErrorMessage": "",
+    "SQL": "UPDATE users SET score = 2.00 WHERE id = 900;",
+    "AffectedRows": 1,
+    "BackupDatabase": "",
+    "ExecuteTime": 3102100,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  },
+  {
+    "Sequence": 3,
+    "Stage": "EXECUTED",
+    "ErrorLevel": 0,
+    "StageStatus": "ExecuteSuccessfully",
+    "ErrorMessage": "",
+    "SQL": "DELETE FROM users WHERE id = 900;",
+    "AffectedRows": 1,
+    "BackupDatabase": "",
+    "ExecuteTime": 2938700,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  }
+]

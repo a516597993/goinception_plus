@@ -1,0 +1,27 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "CHECKED",
+    "ErrorLevel": 2,
+    "StageStatus": "CheckFailed",
+    "ErrorMessage": "column column_does_not_exist does not exist in gip_phase_test.users",
+    "SQL": "UPDATE users SET column_does_not_exist = 1 WHERE id = 1;",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": [
+      {
+        "RuleID": "GIP-DML-MD-001",
+        "LegacyKey": "",
+        "Code": 0,
+        "Level": 2,
+        "Message": "column column_does_not_exist does not exist in gip_phase_test.users",
+        "Sequence": 1
+      }
+    ]
+  }
+]

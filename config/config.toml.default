@@ -1,0 +1,147 @@
+[server]
+host = "0.0.0.0"
+port = 4000
+max_connections = 200
+max_allowed_packet = 16777216
+read_timeout = "30s"
+write_timeout = "30s"
+idle_timeout = "10m"
+shutdown_timeout = "15s"
+audit_timeout = "30s"
+audit_only = false
+# 旁路审核实例设为 true；完整执行实例保持 false。
+
+[auth]
+username = "archery"
+password = "123456"
+# 登录 4000 端口使用的密码。
+
+[log]
+level = "info"
+format = "text"
+
+[observability]
+enabled = false
+host = "127.0.0.1"
+port = 4001
+
+# 可选；执行 backup=1 前必须正确配置。
+[backup]
+host = "127.0.0.1"
+port = 3306
+user = "root"
+password = "123456"
+
+[inc]
+check_index_column_repeat = true
+check_identifier = true
+check_identifier_lower = false
+enable_identifer_keyword = true
+enable_set_charset = true
+enable_set_collation = true
+enable_set_engine = false
+check_primary_key = true
+check_table_comment = true
+check_column_comment = true
+enable_column_charset = false
+enable_blob_type = true
+enable_json_type = true
+max_key_parts = 5
+max_primary_key_parts = 3
+max_keys = 10
+check_autoincrement_datatype = true
+check_dml_where = true
+max_column_count = 100
+max_update_rows = 0
+max_insert_rows = 0
+check_dml_limit = true
+check_dml_orderby = true
+check_insert_field = false
+check_implicit_type_conversion = true
+enable_select_star = false
+enable_foreign_key = false
+enable_partition_table = true
+enable_drop_table = true
+enable_drop_database = false
+enable_truncate_table = false
+required_engine = "innodb"
+index_prefix = "idx_"
+uniq_index_prefix = "uniq_"
+table_prefix = ""
+explain_rule = "first"
+sql_mode = "TRADITIONAL"
+sql_safe_updates = -1
+lock_wait_timeout = -1
+skip_grant_table = true
+support_charset = "utf8mb4"
+support_engine = "innodb"
+lang = "en-US"
+general_log = false
+default_charset = "utf8mb4"
+must_have_columns = ""
+custom_keywords = []
+check_column_type_change = true
+# 目标文件未显式设置的旧版开关；以下值等同旧 goInception 默认值。
+check_index_prefix = false
+enable_nullable = true
+enable_enum_set_bit = false
+enable_timestamp_type = true
+enable_autoincrement_unsigned = false
+enable_pk_columns_only_int = false
+check_timestamp_count = true
+max_char_length = 0
+
+[inc_level]
+er_alter_table_once = 1
+er_auto_incr_id_warning = 0
+er_autoinc_unsigned = 0
+er_blob_cant_have_default = 1
+er_cant_change_column = 0
+er_cant_change_column_position = 1
+er_cant_set_charset = 2
+er_cant_set_collation = 2
+er_cant_set_engine = 2
+er_change_column_type = 1
+er_change_too_much_rows = 2
+er_char_to_varchar_len = 1
+er_charset_on_column = 2
+er_column_have_no_comment = 2
+er_datetime_default = 1
+er_foreign_key = 2
+er_ident_use_keyword = 2
+er_implicit_type_conversion = 2
+er_inc_init_err = 1
+er_incorrect_datetime_value = 2
+er_index_name_idx_prefix = 1
+er_index_name_uniq_prefix = 1
+er_insert_too_much_rows = 1
+er_invalid_data_type = 1
+er_invalid_ident = 2
+er_join_no_on_condition = 2
+er_json_type_support = 1
+er_must_have_columns = 2
+er_no_where_condition = 2
+er_not_allowed_nullable = 1
+er_ordery_by_rand = 2
+er_partition_not_allowed = 1
+er_pk_cols_not_int = 1
+er_pk_too_many_parts = 2
+er_select_only_star = 1
+er_set_data_type_int_bigint = 1
+er_table_charset_must_null = 2
+er_table_charset_must_utf8 = 2
+er_table_must_have_pk = 2
+er_table_must_have_comment = 1
+er_text_not_nullable_error = 1
+er_too_many_key_parts = 2
+er_too_many_keys = 1
+er_too_much_auto_timestamp_cols = 1
+er_use_enum = 2
+er_use_text_or_blob = 1
+er_view_support = 2
+er_with_default_add_column = 2
+er_with_insert_field = 1
+er_with_limit_condition = 1
+er_with_orderby_condition = 2
+er_wrong_and_expr = 1
+er_max_column_count = 1

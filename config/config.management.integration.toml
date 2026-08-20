@@ -1,0 +1,28 @@
+# Local protocol integration only. Production service uses port 4000.
+[server]
+host = "127.0.0.1"
+port = 4400
+
+[auth]
+username = "archery"
+password = "123456"
+
+[backup]
+host = "127.0.0.1"
+port = 3306
+user = "root"
+password = "123456"
+
+[inc]
+check_primary_key = true
+check_table_comment = false
+check_column_comment = false
+check_dml_where = true
+max_column_count = 100
+
+[inc_level]
+er_table_must_have_pk = 1
+er_table_must_have_comment = 1
+er_column_must_have_comment = 1
+er_max_column_count = 1
+er_no_where_condition = 2

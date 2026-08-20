@@ -1,0 +1,43 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "EXECUTED",
+    "ErrorLevel": 2,
+    "StageStatus": "ExecuteFailed",
+    "ErrorMessage": "Error 1062 (23000): Duplicate entry '1' for key 'users.PRIMARY'",
+    "SQL": "INSERT INTO users(id, username) VALUES (1, 'duplicate_primary_key');",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 516100,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": [
+      {
+        "RuleID": "GIP-EXE-RN-001",
+        "LegacyKey": "",
+        "Code": 0,
+        "Level": 2,
+        "Message": "Error 1062 (23000): Duplicate entry '1' for key 'users.PRIMARY'",
+        "Sequence": 1
+      }
+    ]
+  },
+  {
+    "Sequence": 2,
+    "Stage": "CHECKED",
+    "ErrorLevel": 0,
+    "StageStatus": "Checked",
+    "ErrorMessage": "",
+    "SQL": "INSERT INTO users(id, username) VALUES (902, 'must_not_execute');",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  }
+]

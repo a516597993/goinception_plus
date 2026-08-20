@@ -1,0 +1,25 @@
+[server]
+host = "0.0.0.0"
+port = 4000
+audit_only = false
+audit_timeout = "30s"
+
+[auth]
+username = "archery"
+password = "archerypass"
+
+# backup=1 时使用的备份 MySQL。请按实际环境修改。
+[backup]
+host = "127.0.0.1"
+port = 3306
+user = "root"
+password = "123456"
+
+[log]
+level = "info"
+format = "text"
+
+[observability]
+enabled = false
+host = "127.0.0.1"
+port = 4001

@@ -1,0 +1,34 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "EXECUTED",
+    "ErrorLevel": 0,
+    "StageStatus": "ExecuteSuccessfully",
+    "ErrorMessage": "",
+    "SQL": "CREATE TABLE phase4_ddl (id BIGINT PRIMARY KEY);",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 15157200,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  },
+  {
+    "Sequence": 2,
+    "Stage": "EXECUTED",
+    "ErrorLevel": 0,
+    "StageStatus": "ExecuteSuccessfully",
+    "ErrorMessage": "",
+    "SQL": "ALTER TABLE phase4_ddl ADD COLUMN note VARCHAR(64);",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 10051300,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "EXECUTED",
+    "ErrorLevel": 2,
+    "StageStatus": "ExecuteFailed",
+    "ErrorMessage": "backup MySQL host, port, and user are required",
+    "SQL": "UPDATE users SET score = 88.88 WHERE id = 1;",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": [
+      {
+        "RuleID": "GIP-BAK-BL-001",
+        "LegacyKey": "",
+        "Code": 0,
+        "Level": 2,
+        "Message": "backup MySQL host, port, and user are required",
+        "Sequence": 1
+      }
+    ]
+  }
+]

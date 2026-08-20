@@ -1,0 +1,27 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "CHECKED",
+    "ErrorLevel": 2,
+    "StageStatus": "CheckFailed",
+    "ErrorMessage": "table gip_phase_test.no_key has no reliable primary or non-null unique key for ROW binlog rollback",
+    "SQL": "UPDATE no_key SET value = 'after' WHERE value = 'before';",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": [
+      {
+        "RuleID": "GIP-DML-SF-002",
+        "LegacyKey": "",
+        "Code": 0,
+        "Level": 2,
+        "Message": "table gip_phase_test.no_key has no reliable primary or non-null unique key for ROW binlog rollback",
+        "Sequence": 1
+      }
+    ]
+  }
+]

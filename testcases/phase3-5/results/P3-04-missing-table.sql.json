@@ -1,0 +1,27 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "CHECKED",
+    "ErrorLevel": 2,
+    "StageStatus": "CheckFailed",
+    "ErrorMessage": "table gip_phase_test.table_does_not_exist does not exist",
+    "SQL": "UPDATE table_does_not_exist SET value = 1 WHERE id = 1;",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": [
+      {
+        "RuleID": "GIP-DML-MD-001",
+        "LegacyKey": "",
+        "Code": 0,
+        "Level": 2,
+        "Message": "table gip_phase_test.table_does_not_exist does not exist",
+        "Sequence": 1
+      }
+    ]
+  }
+]

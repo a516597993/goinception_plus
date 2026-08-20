@@ -1,0 +1,7 @@
+/.idea/
+/.vscode/
+/.tools/
+/bin/
+/coverage.out
+/third_party/tidb/
+

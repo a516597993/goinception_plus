@@ -1,0 +1,15 @@
+[
+  {"file":"P3-01-insert-pass.sql","status":"Checked","rule":""},
+  {"file":"P3-02-update-without-where.sql","status":"CheckFailed","rule":"GIP-DML-SF-001"},
+  {"file":"P3-03-delete-without-where.sql","status":"CheckFailed","rule":"GIP-DML-SF-001"},
+  {"file":"P3-04-missing-table.sql","status":"CheckFailed","rule":"GIP-DML-MD-001"},
+  {"file":"P3-05-missing-column.sql","status":"CheckFailed","rule":"GIP-DML-MD-001"},
+  {"file":"P3-06-backup-without-key.sql","status":"CheckFailed","rule":"GIP-DML-SF-002"},
+  {"file":"P3-07-qualified-table-pass.sql","status":"Checked","rule":""},
+  {"file":"P3-08-snapshot-evolution.sql","status":"Checked","rule":""},
+  {"file":"P4-01-serial-dml-success.sql","status":"ExecuteSuccessfully","rule":""},
+  {"file":"P4-02-audit-error-blocks-batch.sql","status":"CheckFailed","rule":"GIP-DML-SF-001"},
+  {"file":"P4-03-runtime-error-stops-following.sql","status":"ExecuteFailed","rule":"GIP-EXE-RN-001"},
+  {"file":"P4-04-ddl-execution.sql","status":"ExecuteSuccessfully","rule":""},
+  {"file":"P5-01-binlog-capture-fail-closed.sql","status":"ExecuteFailed","rule":"GIP-BAK-BL-001"}
+]

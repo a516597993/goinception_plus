@@ -1,0 +1,50 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "CHECKED",
+    "ErrorLevel": 0,
+    "StageStatus": "Checked",
+    "ErrorMessage": "",
+    "SQL": "CREATE TABLE phase_batch (id BIGINT PRIMARY KEY);",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  },
+  {
+    "Sequence": 2,
+    "Stage": "CHECKED",
+    "ErrorLevel": 0,
+    "StageStatus": "Checked",
+    "ErrorMessage": "",
+    "SQL": "ALTER TABLE phase_batch ADD COLUMN name VARCHAR(32);",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  },
+  {
+    "Sequence": 3,
+    "Stage": "CHECKED",
+    "ErrorLevel": 0,
+    "StageStatus": "Checked",
+    "ErrorMessage": "",
+    "SQL": "INSERT INTO phase_batch(id, name) VALUES (1, 'snapshot-visible');",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  }
+]

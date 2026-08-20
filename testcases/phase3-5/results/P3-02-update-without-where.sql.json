@@ -1,0 +1,27 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "CHECKED",
+    "ErrorLevel": 2,
+    "StageStatus": "CheckFailed",
+    "ErrorMessage": "UPDATE and DELETE must contain a WHERE condition",
+    "SQL": "UPDATE users SET score = 0;",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": [
+      {
+        "RuleID": "GIP-DML-SF-001",
+        "LegacyKey": "er_sql_no_where",
+        "Code": 0,
+        "Level": 2,
+        "Message": "UPDATE and DELETE must contain a WHERE condition",
+        "Sequence": 1
+      }
+    ]
+  }
+]

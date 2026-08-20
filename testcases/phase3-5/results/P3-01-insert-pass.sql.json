@@ -1,0 +1,18 @@
+[
+  {
+    "Sequence": 1,
+    "Stage": "CHECKED",
+    "ErrorLevel": 0,
+    "StageStatus": "Checked",
+    "ErrorMessage": "",
+    "SQL": "INSERT INTO users(id, username, score) VALUES (100, 'audit_only', 12.34);",
+    "AffectedRows": 0,
+    "BackupDatabase": "",
+    "ExecuteTime": 0,
+    "SQLSHA1": "",
+    "BackupCompleted": false,
+    "BackupTime": 0,
+    "OperationID": "",
+    "Issues": null
+  }
+]
